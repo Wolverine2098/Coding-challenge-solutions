@@ -10,7 +10,8 @@ Contains the solution of coding challenges by cctech-labs
 
 ## Question 2 approach
 
-![tempsnip](https://user-images.githubusercontent.com/31897207/85328297-24bfff00-b4ee-11ea-8f0b-d7ede7ad8cf7.png)
+![tempsnip](https://user-images.githubusercontent.com/31897207/85329511-48844480-b4f0-11ea-89c1-ea523cd7e7b4.png)
+
 1. Enter the coordinates of buildings
 2. Initially the first building facing the sun will have its front and top facing sun add them to the sum
 3. check next building if larger than the prev one ,draw and imaginary line from sun to point (x02,y02)
