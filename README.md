@@ -2,12 +2,14 @@
 Contains the solution of coding challenges by cctech-labs
 
 ## Question 1 approach
+![snip1](https://user-images.githubusercontent.com/31897207/85330191-833aac80-b4f1-11ea-9ca0-a3bc6748869f.png)
 
 1. drawing horizontal lines from each point and extending it to MAX_INT (max possible value)
 2. checking whether the line interescting the polygon
 3  if yes,then checking no of times the lines are intersecting
-4. If no of intersections are 1 that shows either point is inside or on the edge else point lies outside 
-
+4. If no of intersections are 1 that shows either point is inside or on the edge else point lies outside
+5. In case of second figure we check whether the point is colinear or not if found then we check for the side where the point lies
+6. If point cannot be found on the line we return false
 ## Question 2 approach
 
 ![tempsnip](https://user-images.githubusercontent.com/31897207/85329511-48844480-b4f0-11ea-89c1-ea523cd7e7b4.png)
